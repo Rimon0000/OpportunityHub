@@ -1,0 +1,28 @@
+.banner-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.details-container h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: #1A1919;
+}
+.details-container span {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.details-container p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.btn-started{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+}
