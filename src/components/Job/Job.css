@@ -1,0 +1,19 @@
+.job-container{
+    height: 243px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+    padding: 40px;
+}
+.job-details .job-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+.job-details p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A3A3A3;
+    margin-top: 10px;
+}
