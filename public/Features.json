@@ -1,0 +1,112 @@
+[
+    {
+      "id": "001",
+      "logo": "https://example.com/acme-inc-logo.png",
+      "job_title": "Software Engineer",
+      "company_name": "Acme Inc.",
+      "location": "San Francisco, CA",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 100000,
+      "job_description": "Develop software applications and systems.",
+      "job_responsibility": "Design, code, test, and debug software applications and systems. Collaborate with cross-functional teams to identify and prioritize features. Conduct code reviews and contribute to code quality initiatives.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "years_of_experience": 3,
+      "contact_info": {
+        "email": "jobs@acmeinc.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": "002",
+      "logo": "https://example.com/globex-corp-logo.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Globex Corporation",
+      "location": "New York, NY",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 80000,
+      "job_description": "Develop and execute marketing strategies.",
+      "job_responsibility": "Develop and execute marketing strategies that drive brand awareness, customer acquisition, and revenue growth. Collaborate with product teams to develop compelling messaging and positioning. Analyze market trends and competitive landscape to inform marketing strategy.",
+      "educational_requirements": "Bachelor's degree in Marketing, Business Administration or related field.",
+      "years_of_experience": 5,
+      "contact_info": {
+        "email": "jobs@globexcorp.com",
+        "phone": "555-123-7890"
+      }
+    },
+    {
+      "id": "003",
+      "logo": "https://example.com/example-bank-logo.png",
+      "job_title": "Financial Analyst",
+      "company_name": "Example Bank",
+      "location": "Chicago, IL",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 75000,
+      "job_description": "Analyze financial data and create financial models.",
+      "job_responsibility": "Analyze financial data to inform investment decisions, create financial models to forecast business performance, and monitor financial performance against budget. Collaborate with other teams to provide financial analysis and support.",
+      "educational_requirements": "Bachelor's degree in Finance, Accounting or related field.",
+      "years_of_experience": 2,
+      "contact_info": {
+        "email": "jobs@examplebank.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": "004",
+      "logo": "https://example.com/healthco-logo.png",
+      "job_title": "Registered Nurse",
+      "company_name": "HealthCo",
+      "location": "Boston, MA",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 80000,
+      "job_description": "Provide patient care and education.",
+      "job_responsibility": "Provide direct patient care, educate patients and their families about various health conditions, and collaborate with healthcare team to develop and implement patient care plans.",
+      "educational_requirements": "Associate or Bachelor's degree in Nursing.",
+      "years_of_experience": 3,
+      "contact_info": {
+        "email": "jobs@healthco.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": "005",
+      "logo": "https://example.com/techstars-logo.png",
+      "job_title": "Startup Accelerator Program Manager",
+      "company_name": "Techstars",
+      "location": "Boulder, CO",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 100000,
+      "job_description": "Manage and support startup accelerator program.",
+      "job_responsibility": "Manage and support startup accelerator program, including selecting and onboarding startups, providing mentorship and resources, and organizing demo days and other events. Build relationships with investors and other stakeholders in the startup ecosystem.",
+      "educational_requirements": "Bachelor's degree in Business Administration, Marketing or related field.",
+      "years_of_experience": 5,
+      "contact_info": {
+        "email": "jobs@techstars.com",
+        "phone": "555-123-7890"
+      }
+    },
+    {
+      "id": "006",
+      "logo": "https://example.com/medtronic-logo.png",
+      "job_title": "Manufacturing Engineer",
+      "company_name": "Medtronic",
+      "location": "Minneapolis, MN",
+      "remote_or_onsite": "Onsite",
+      "fulltime_part-time": "Full-time",
+      "salary": 90000,
+      "job_description": "Design and improve manufacturing processes.",
+      "job_responsibility": "Design and improve manufacturing processes to increase efficiency and quality, and reduce costs. Collaborate with cross-functional teams to identify and implement process improvements.",
+      "educational_requirements": "Bachelor's degree in Mechanical, Industrial or related Engineering field.",
+      "years_of_experience": 3,
+      "contact_info": {
+        "email": "jobs@medtronic.com",
+        "phone": "555-123-4567"
+      }
+    }
+]
+        
+      
