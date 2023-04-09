@@ -1,0 +1,30 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header .header-logo{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
+}
+
+nav.header a{
+    text-decoration:none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #757575;
+}
+
+.btn-applying{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+}
