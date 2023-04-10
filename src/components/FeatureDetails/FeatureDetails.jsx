@@ -3,6 +3,7 @@ import { Link, useLoaderData, useParams } from 'react-router-dom';
 import Details from '../Details/Details';
 import './FeatureDetails.css'
 import {CalendarDaysIcon, CurrencyDollarIcon, PhoneIcon,MapPinIcon,EnvelopeIcon} from '@heroicons/react/24/solid'
+import { addToDb } from '../../utilities/fakedb';
 
 const FeatureDetails = () => {
     const features = useLoaderData()
@@ -14,6 +15,12 @@ const FeatureDetails = () => {
     const job = features.find(ft => ft.id === id.featureId)
     const {job_title, salary, job_description, job_responsibility, educational_requirements, years_of_experience, contact_info} = job
    
+    //
+    const handleAddToCart = (id) =>{
+        // console.log(id)
+        addToDb(id)
+    }
+
     return (
         <div className='m-5'>
             <h2 className='details-title text-center m-6 text-4xl font-bold'>Job Details</h2>
@@ -53,7 +60,7 @@ const FeatureDetails = () => {
                                <p className='title ml-2'>Address : <span className='title-value'>{contact_info.address}</span> </p>
                     </div>
                 </div>
-                <Link><button className='btn-apply'>Apply Now</button></Link>
+                <Link><button onClick={() =>handleAddToCart(id.featureId)} className='btn-apply'>Apply Now</button></Link>
                 </div>
             </div>
         

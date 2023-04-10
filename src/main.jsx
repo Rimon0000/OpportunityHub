@@ -13,6 +13,7 @@ import Banner from './components/Banner/Banner';
 import Category from './components/Category/Category';
 import FeaturesJob from './components/FeaturesJob/FeaturesJob';
 import FeatureDetails from './components/FeatureDetails/FeatureDetails';
+import { cartAndJobData } from './loaders/getCart&JobData';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,11 @@ const router = createBrowserRouter([
           const data = fetch('/features.json')
           return data
         }
-        
+      },
+      {
+        path: '/applied',
+        element: <AppliedJob></AppliedJob>,
+        loader: cartAndJobData
       }
   
     ]
