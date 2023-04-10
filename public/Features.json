@@ -11,10 +11,11 @@
       "job_description": "Develop software applications and systems.",
       "job_responsibility": "Design, code, test, and debug software applications and systems. Collaborate with cross-functional teams to identify and prioritize features. Conduct code reviews and contribute to code quality initiatives.",
       "educational_requirements": "Bachelor's degree in Computer Science or related field.",
-      "years_of_experience": 3,
+      "years_of_experience": "1 year",
       "contact_info": {
         "email": "jobs@acmeinc.com",
-        "phone": "555-123-4567"
+        "phone": "555-123-4567",
+        "address": " CoxsBazar 320, Sukrabad Dhaka, Bangladesh"
       }
     },
     {
@@ -29,10 +30,11 @@
       "job_description": "Develop and execute marketing strategies.",
       "job_responsibility": "Develop and execute marketing strategies that drive brand awareness, customer acquisition, and revenue growth. Collaborate with product teams to develop compelling messaging and positioning. Analyze market trends and competitive landscape to inform marketing strategy.",
       "educational_requirements": "Bachelor's degree in Marketing, Business Administration or related field.",
-      "years_of_experience": 5,
+      "years_of_experience": "2-3 years",
       "contact_info": {
         "email": "jobs@globexcorp.com",
-        "phone": "555-123-7890"
+        "phone": "555-123-7890",
+        "address": " JamalKhan, Sukrabad Dhaka, Bangladesh"
       }
     },
     {
@@ -47,10 +49,11 @@
       "job_description": "Analyze financial data and create financial models.",
       "job_responsibility": "Analyze financial data to inform investment decisions, create financial models to forecast business performance, and monitor financial performance against budget. Collaborate with other teams to provide financial analysis and support.",
       "educational_requirements": "Bachelor's degree in Finance, Accounting or related field.",
-      "years_of_experience": 2,
+      "years_of_experience": "1-3 years",
       "contact_info": {
         "email": "jobs@examplebank.com",
-        "phone": "555-123-4567"
+        "phone": "555-123-4567",
+        "address": " GEC 32, CTG Dhaka, Bangladesh"
       }
     },
     {
@@ -65,10 +68,11 @@
       "job_description": "Provide patient care and education.",
       "job_responsibility": "Provide direct patient care, educate patients and their families about various health conditions, and collaborate with healthcare team to develop and implement patient care plans.",
       "educational_requirements": "Associate or Bachelor's degree in Nursing.",
-      "years_of_experience": 3,
+      "years_of_experience": "5+ years",
       "contact_info": {
         "email": "jobs@healthco.com",
-        "phone": "555-123-4567"
+        "phone": "555-123-4567",
+        "address": " Dhanmondi 04, farmGet Dhaka, Bangladesh"
       }
     },
     {
@@ -83,10 +87,12 @@
       "job_description": "Manage and support startup accelerator program.",
       "job_responsibility": "Manage and support startup accelerator program, including selecting and onboarding startups, providing mentorship and resources, and organizing demo days and other events. Build relationships with investors and other stakeholders in the startup ecosystem.",
       "educational_requirements": "Bachelor's degree in Business Administration, Marketing or related field.",
-      "years_of_experience": 5,
+      "years_of_experience": "3-4 years",
       "contact_info": {
         "email": "jobs@techstars.com",
-        "phone": "555-123-7890"
+        "phone": "555-123-7890",
+        "address": " Mirpur 32, Dhaka, Bangladesh"
+
       }
     },
     {
@@ -101,10 +107,11 @@
       "job_description": "Design and improve manufacturing processes.",
       "job_responsibility": "Design and improve manufacturing processes to increase efficiency and quality, and reduce costs. Collaborate with cross-functional teams to identify and implement process improvements.",
       "educational_requirements": "Bachelor's degree in Mechanical, Industrial or related Engineering field.",
-      "years_of_experience": 3,
+      "years_of_experience": "5+ years",
       "contact_info": {
         "email": "jobs@medtronic.com",
-        "phone": "555-123-4567"
+        "phone": "555-123-4567",
+        "address": " Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
       }
     }
 ]

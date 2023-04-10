@@ -12,6 +12,7 @@ import AppliedJob from './components/AppliedJob/AppliedJob';
 import Banner from './components/Banner/Banner';
 import Category from './components/Category/Category';
 import FeaturesJob from './components/FeaturesJob/FeaturesJob';
+import FeatureDetails from './components/FeatureDetails/FeatureDetails';
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,19 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <FeaturesJob></FeaturesJob>,
-        loader: () => fetch('features.json')
+        loader: () => fetch('/features.json')
+      },
+      {
+        path: '/feature/:featureId',
+        element: <FeatureDetails></FeatureDetails>,
+        loader: ({params}) => {
+          // const id = params.Id
+          const data = fetch('/features.json')
+          return data
+        }
+        
       }
+  
     ]
   }
 ])
