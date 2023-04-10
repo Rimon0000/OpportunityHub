@@ -1,0 +1,13 @@
+.features-container .features-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919
+}
+.features-container .features-des{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+}
+

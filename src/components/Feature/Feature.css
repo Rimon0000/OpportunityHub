@@ -1,0 +1,48 @@
+.feature{
+    height: 392px;
+    border: 1px solid lightblue;
+    padding: 40px;
+}
+.feature .job-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+    margin-top: 32px;
+}
+.feature .company-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+.feature .remote-time p{
+    border: 1px solid lightblue;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 19px;
+    height: 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.feature .location-salary{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    gap: 24px;
+}
+
+.btn-details{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+    margin-top: 24px;
+}

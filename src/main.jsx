@@ -11,6 +11,7 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Banner from './components/Banner/Banner';
 import Category from './components/Category/Category';
+import FeaturesJob from './components/FeaturesJob/FeaturesJob';
 
 const router = createBrowserRouter([
   {
@@ -19,11 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Banner></Banner>
-      },
-      {
-        path: '/applied',
-        element: <AppliedJob></AppliedJob>
+        element: <FeaturesJob></FeaturesJob>,
+        loader: () => fetch('features.json')
       }
     ]
   }
