@@ -1,0 +1,7 @@
+  /* responsive  */
+  @media only screen and (max-width: 576px) {
+    .applied-container{
+        margin-top: 150px;
+    }
+   
+  }

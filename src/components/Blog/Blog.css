@@ -2,6 +2,7 @@
     margin-top: 20px;
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
+    margin-top: 84px;
 }
 
 .question{
@@ -27,4 +28,12 @@
     .question{
         margin-right: 10px;
     }
+  }
+
+  /* responsive  */
+@media only screen and (max-width: 576px) {
+    .question-container{
+        margin-top: 150px;
+    }
+   
   }

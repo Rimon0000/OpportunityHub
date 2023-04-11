@@ -1,10 +1,10 @@
 .review-item{
-    /* width: 571px; */
+    width: 100%;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     margin-bottom: 25px;
     padding: 8px 25px 8px 8px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 .review-item .job-title{
@@ -13,6 +13,7 @@
     line-height: 33px;
     color: #474747;
     margin-top: -30px;
+    padding-top: 22px;
 }
 .review-details{
     flex-grow: 1;
@@ -49,9 +50,7 @@
 .review-details .remote-time p{
     border: 1px solid lightblue;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 9px 19px;
-    height: 40px;
+    align-items: center;
     border-radius: 4px;
     box-sizing: border-box;
     font-weight: 700;
@@ -61,6 +60,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    padding: 11px;
 }
 
 .review-details .location-salary{
@@ -77,3 +77,11 @@
     color: white;
     margin-top: 24px;
 }
+
+/* responsive  */
+@media only screen and (max-width: 576px) {
+    .review-item .job-title{
+        padding-top: 39px;
+    }
+  }
+  

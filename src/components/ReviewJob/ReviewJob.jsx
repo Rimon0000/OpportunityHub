@@ -8,12 +8,12 @@ const ReviewJob = ({job}) => {
     // console.log(job)
     const {id,job_title, logo, company_name, location, salary, remote_or_onsite, fulltime_partTime} = job
     return (
-            <div>
-                <div className='review-item gap-8 mt-10'>
+            <div className='review'>
+                <div className='review-item  sm:grid grid-cols-12 lg:grid-cols-4 gap-8 mt-10'>
                 <div className='logo-img'>
                 <img src={logo} alt="" />
                 </div>
-                <div className='review-details'>
+                <div className='review-details lg:text-start sm:text-end'>
                     <p className='job-title'>{job_title}</p>
                     <p className='company-name'>{company_name}</p>
                     <div className='remote-time flex mt-3'>
@@ -33,7 +33,9 @@ const ReviewJob = ({job}) => {
                     </div>
                 </div>
                 
+                <div className='text-end col-span-2'>
                 <Link to={`/feature/${id}`}><button className='btn-details'>View Details</button></Link>
+                </div>
                 </div>
             </div>
     );

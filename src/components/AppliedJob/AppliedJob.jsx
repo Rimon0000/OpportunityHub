@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getShoppingCart } from '../../utilities/fakedb';
 import { useLoaderData } from 'react-router-dom';
 import ReviewJob from '../ReviewJob/ReviewJob';
+import './AppliedJob.css'
 
 
 const AppliedJob = () => {
@@ -16,8 +17,7 @@ const AppliedJob = () => {
     // console.log(filterAppliedItem)
     
     return (
-        <div>
-
+        <div className='applied-container'>
             <h2 className='text-2xl font-bold text-center mt-10'>Applied Jobs</h2>
     
                 <div className='text-end my-10'>

@@ -9,7 +9,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+   
 }
 .banner-details-container .banner-details{
     font-weight: 500;
@@ -23,3 +23,11 @@
     border-radius: 8px;
     color: white;
 }
+
+/* responsive  */
+@media only screen and (max-width: 576px) {
+    .banner-container{
+        padding-top: 31px;
+    }
+   
+  }

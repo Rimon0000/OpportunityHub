@@ -1,6 +1,7 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { curveCardinal } from 'd3-shape';
+import './Statistics.css'
 
 const Statistics = () => {
 
@@ -50,7 +51,7 @@ const Statistics = () => {
       
 
     return (
-        <div className='m-5'>
+        <div className='mt-20 statistics-container'>
             <ResponsiveContainer width="100%" height={500}>
                   <AreaChart
                     width={500}
