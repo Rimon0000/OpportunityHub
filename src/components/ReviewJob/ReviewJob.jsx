@@ -8,7 +8,8 @@ const ReviewJob = ({job}) => {
     // console.log(job)
     const {id,job_title, logo, company_name, location, salary, remote_or_onsite, fulltime_partTime} = job
     return (
-            <div className='review-item gap-8 mt-10'>
+            <div>
+                <div className='review-item gap-8 mt-10'>
                 <div className='logo-img'>
                 <img src={logo} alt="" />
                 </div>
@@ -33,6 +34,7 @@ const ReviewJob = ({job}) => {
                 </div>
                 
                 <Link to={`/feature/${id}`}><button className='btn-details'>View Details</button></Link>
+                </div>
             </div>
     );
 };

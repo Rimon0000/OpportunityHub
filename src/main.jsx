@@ -14,11 +14,13 @@ import Category from './components/Category/Category';
 import FeaturesJob from './components/FeaturesJob/FeaturesJob';
 import FeatureDetails from './components/FeatureDetails/FeatureDetails';
 import { cartAndJobData } from './loaders/getCart&JobData';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -39,12 +41,6 @@ const router = createBrowserRouter([
         element: <AppliedJob></AppliedJob>,
         loader: cartAndJobData
       },
-      // {
-      //   path: '/feature/:featureId',
-      //   element: <FeatureDetails></FeatureDetails>
-      // }
-      
-
   
     ]
   }
