@@ -1,7 +1,7 @@
 [
     {
       "id": "001",
-      "logo": "../src/assets/Logo/google-1-1 1-1.png",
+      "logo": "https://i.ibb.co/Jmgt7BF/google-1-1-1.png",
       "job_title": "Software Engineer",
       "company_name": "Acme Inc.",
       "location": "San Francisco, CA",
