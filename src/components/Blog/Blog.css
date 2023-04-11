@@ -1,0 +1,30 @@
+.question-container{
+    margin-top: 20px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+
+.question{
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 5px #ffffff;
+    background-color: white;
+}
+.question-container .question h4{
+    padding-left: 15px;
+    padding-top: 8px;
+    font-size: 21px;
+}
+.question p{
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+/* responsive  */
+@media only screen and (max-width: 576px) {
+    .question-container{
+        width: 113%;
+    }
+    .question{
+        margin-right: 10px;
+    }
+  }

@@ -3,25 +3,25 @@
     {
         "id": "001",
         "title": "Marketing",
-        "img": "../src/assets/Icons/business 1.png",
+        "img": "https://i.ibb.co/G7GX5wW/business-1.png",
         "posts_available": "300 Jobs Available"
     },
     {
         "id": "002",
         "title": "Human Resources",
-        "img": "../src/assets/Icons/social-media 1.png",
+        "img": "https://i.ibb.co/sFScCHb/social-media-1.png",
         "posts_available": "100 Jobs Available"
     },
     {
         "id": "003",
         "title": "Technology",
-        "img": "../src/assets/Icons/chip 1.png",
+        "img": "https://i.ibb.co/6Y2KMkw/chip-1.png",
         "posts_available": "100+ Jobs Available"
     },
     {
         "id": "004",
         "title": "Account & Finance",
-        "img": "../src/assets/Icons/accounts 1.png",
+        "img": "https://i.ibb.co/XY6C1YK/accounts-1.png",
         "posts_available": "259 Jobs Available"
     }
    

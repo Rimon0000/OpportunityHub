@@ -20,7 +20,7 @@
     },
     {
       "id": "002",
-      "logo": "../src/assets/Logo/netflix-4 1.png",
+      "logo": "https://i.ibb.co/7WSCWwF/netflix-4-1.png",
       "job_title": "Marketing Manager",
       "company_name": "Globex Corporation",
       "location": "New York, NY",
@@ -39,7 +39,7 @@
     },
     {
       "id": "003",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "logo": "https://i.ibb.co/4d4CYFH/tesla-9-1.png",
       "job_title": "Financial Analyst",
       "company_name": "Example Bank",
       "location": "Chicago, IL",
@@ -58,7 +58,7 @@
     },
     {
       "id": "004",
-      "logo": "../src/assets/Logo/google-1-1 1.png",
+      "logo": "https://i.ibb.co/Tm3Hf6Q/Group-10021.png",
       "job_title": "Registered Nurse",
       "company_name": "HealthCo",
       "location": "Boston, MA",
@@ -77,7 +77,7 @@
     },
     {
       "id": "005",
-      "logo": "../src/assets/Logo/netflix-4 1.png",
+      "logo": "https://i.ibb.co/7WSCWwF/netflix-4-1.png",
       "job_title": "Startup Accelerator Program Manager",
       "company_name": "Techstars",
       "location": "Boulder, CO",
@@ -97,7 +97,7 @@
     },
     {
       "id": "006",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "logo": "https://i.ibb.co/4d4CYFH/tesla-9-1.png",
       "job_title": "Manufacturing Engineer",
       "company_name": "Medtronic",
       "location": "Minneapolis, MN",

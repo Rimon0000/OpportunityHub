@@ -15,6 +15,7 @@ import FeaturesJob from './components/FeaturesJob/FeaturesJob';
 import FeatureDetails from './components/FeatureDetails/FeatureDetails';
 import { cartAndJobData } from './loaders/getCart&JobData';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: '/statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
       }
   
     ]
