@@ -1,7 +1,7 @@
 import { getShoppingCart } from "../utilities/fakedb"
 
 const cartAndJobData = async() =>{
-    const jobsData = await fetch('features.json')
+    const jobsData = await fetch('../features.json')
     const jobs = await jobsData.json()
     
     const savedJob = getShoppingCart()

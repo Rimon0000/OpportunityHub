@@ -38,7 +38,13 @@ const router = createBrowserRouter([
         path: '/applied',
         element: <AppliedJob></AppliedJob>,
         loader: cartAndJobData
-      }
+      },
+      // {
+      //   path: '/feature/:featureId',
+      //   element: <FeatureDetails></FeatureDetails>
+      // }
+      
+
   
     ]
   }
