@@ -41,6 +41,10 @@ const router = createBrowserRouter([
         element: <AppliedJob></AppliedJob>,
         loader: cartAndJobData
       },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      }
   
     ]
   }
