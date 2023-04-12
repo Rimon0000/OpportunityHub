@@ -11,3 +11,11 @@
     color: #757575;
 }
 
+.btn-see-all{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
