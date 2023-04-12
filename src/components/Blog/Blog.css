@@ -3,6 +3,8 @@
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
     margin-top: 84px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .question{
@@ -34,6 +36,8 @@
 @media only screen and (max-width: 576px) {
     .question-container{
         margin-top: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
    
   }

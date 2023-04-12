@@ -1,3 +1,7 @@
+.features-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .features-container .features-title{
     font-weight: 700;
     font-size: 48px;

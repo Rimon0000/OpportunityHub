@@ -22,9 +22,13 @@ const FeatureDetails = () => {
     }
 
     return (
-        <div className='details-container m-5'>
-            <h2 className='details-title text-center m-6 text-4xl font-bold'>Job Details</h2>
-            <div className='details-container sm:grid grid-cols-12 lg:grid-cols-2 mt-8 gap-10'>
+        <div className='details-container'>
+            <div className='details-jobs' >
+            <h2 className='title text-2xl font-bold text-center mt-10'
+            style={{backgroundImage: `url("https://i.ibb.co/GFq27Qk/Vector.png")`}}
+            >Job Details</h2>
+            </div>
+            <div className='details-container feature-container feature-details sm:grid grid-cols-12 lg:grid-cols-2 mt-8 gap-10'>
                 <div className='details'>
                     <p className='title'>Job Description: <span className='title-value'>{job_description}</span></p>
                     <p className='title mt-4'>Job Responsibility: <span className='title-value'>{job_responsibility}</span></p>

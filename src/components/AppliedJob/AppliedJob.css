@@ -1,3 +1,16 @@
+.applied-details{
+  margin-left: 100px;
+    margin-right: 100px;
+}
+.applied-jobs{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+.applied-jobs .title{
+  padding-top: 75px;
+  background-repeat: no-repeat;
+  height: 218px;
+}
+  
   /* responsive  */
   @media only screen and (max-width: 576px) {
     .applied-container{
